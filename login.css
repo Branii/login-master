@@ -1,0 +1,96 @@
+.body{
+    background-color: rgb(230, 226, 221)
+}
+
+.login-card{
+    width:40%;
+    height:450px;
+    background-color:white;
+    position:relative;
+    left:30%;
+    top:100px;
+    border-top:solid 5px blue;
+    box-shadow: 1px 2px 2px 2px rgb(226, 222, 222);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.login-field{
+    width:60%;
+    height:40px;
+    position: relative;
+    left:20%;
+    top:20px;
+    margin-bottom:15px;
+    background-color:white;
+    padding:3px;
+    border-radius:5px;
+    border:solid 1px #E2D9D9;
+    text-align: center;
+    font: 18px arial;
+    position:relative;top:50px;
+}
+
+.login-btn{
+    width:61%;
+    height:60px;
+    position:relative;
+    top:50px;
+    border:none;
+    border-radius:1px;
+    background-color: blue;
+    box-shadow:1px 1px 1px 1px  rgb(91, 135, 201);
+    position: relative;
+    color:white;
+    font:20px arial;
+    left:20%;
+    padding:20px;
+}
+.login-btn:hover{
+    box-shadow:1px 2px 8px 2px  rgb(91, 135, 201);
+}
+
+.login-info{
+    width:61%;
+    height:60px;
+    position:relative;
+    top:90px;
+    left:20%;
+    /* display:none; */
+    /* background-color: black; */
+}
+
+.login-loader{
+    position: fixed;
+    left:48%;
+    width:5%;
+    height:60px;
+    /* display:none; */
+}
+
+.login-footer{
+    width:40%;
+    height:50px;
+    top:50px;
+    background-color:rgb(103, 103, 238);
+    position:relative;
+    left:30%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.login-link{
+    position: relative;
+    left:33%;
+    top:10px;
+    font:18px arial;
+    padding:20px;
+    text-align: center; 
+    cursor: pointer;
+}
+
+
+.login-link a:hover{
+color: white;
+}
+
