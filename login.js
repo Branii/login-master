@@ -4,8 +4,8 @@ $(function(){
     $(".login-link").html("<a href='"+ link +"' style='text-decoration: none;color:white;'>Forgot password?</a>")
 
     var timer;
-    var err = "<div id='err' style='width:100%;height:60px;background-color:red;border-left:solid 10px rgb(190, 6, 6);z-index:0'><nii style='position:relative;top:20px;left:5%;color:white;font:16px arial;'>Wrong credentials entered at login</nii></div>";
-    var info = "<div id='info' style='width:100%;height:61px;background-color:orange;border-left:solid 10px #1c1e1f;'><nii style='position:relative;top:20px;left:5%;font:16px arial;'>Please all fields are mandatory</nii></div>";
+    var err = "<div id='err' style='width:100%;height:60px;background-color:red;border-left:solid 10px rgb(190, 6, 6);z-index:0'><b style='position:relative;top:20px;left:5%;color:white;font:16px arial;'>Wrong credentials entered at login</b></div>";
+    var info = "<div id='info' style='width:100%;height:61px;background-color:orange;border-left:solid 10px #1c1e1f;'><b style='position:relative;top:20px;left:5%;font:16px arial;'>Please all fields are mandatory</b></div>";
     var img = "<img class='login-loader' src='img/progress.gif'>";
     $("#submit").click(function(){
         var username = $(".username").val();
